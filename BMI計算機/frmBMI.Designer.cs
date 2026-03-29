@@ -127,17 +127,18 @@
             // 
             this.lblResult.AutoSize = true;
             this.lblResult.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblResult.Location = new System.Drawing.Point(199, 63);
+            this.lblResult.Location = new System.Drawing.Point(207, 61);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(222, 25);
+            this.lblResult.Size = new System.Drawing.Size(207, 25);
             this.lblResult.TabIndex = 1;
-            this.lblResult.Text = "                                          ";
+            this.lblResult.Text = "                                       ";
             this.lblResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmBMI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.grpOutput);
             this.Controls.Add(this.grpInput);
