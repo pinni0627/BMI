@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI計算機", "BMI計算機\BMI計算機.csproj", "{48E6A9FD-200D-4098-B5A4-2C7456EFF180}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48E6A9FD-200D-4098-B5A4-2C7456EFF180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E6A9FD-200D-4098-B5A4-2C7456EFF180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E6A9FD-200D-4098-B5A4-2C7456EFF180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E6A9FD-200D-4098-B5A4-2C7456EFF180}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF9F4572-76EE-4498-8BD3-69DA23DF2500}
+	EndGlobalSection
+EndGlobal
