@@ -51,7 +51,7 @@
             this.grpInput.Font = new System.Drawing.Font("微軟正黑體", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.grpInput.Location = new System.Drawing.Point(177, 35);
             this.grpInput.Name = "grpInput";
-            this.grpInput.Size = new System.Drawing.Size(341, 133);
+            this.grpInput.Size = new System.Drawing.Size(437, 142);
             this.grpInput.TabIndex = 0;
             this.grpInput.TabStop = false;
             this.grpInput.Text = "輸入";
@@ -81,10 +81,10 @@
             this.grpOutput.Font = new System.Drawing.Font("微軟正黑體", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.grpOutput.Location = new System.Drawing.Point(177, 197);
             this.grpOutput.Name = "grpOutput";
-            this.grpOutput.Size = new System.Drawing.Size(341, 150);
+            this.grpOutput.Size = new System.Drawing.Size(437, 157);
             this.grpOutput.TabIndex = 2;
             this.grpOutput.TabStop = false;
-            this.grpOutput.Text = "groupBox2";
+            this.grpOutput.Text = "計算結果";
             // 
             // lblBMI
             // 
@@ -100,20 +100,22 @@
             this.txtHeight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtHeight.Location = new System.Drawing.Point(117, 39);
             this.txtHeight.Name = "txtHeight";
-            this.txtHeight.Size = new System.Drawing.Size(119, 31);
+            this.txtHeight.Size = new System.Drawing.Size(196, 31);
             this.txtHeight.TabIndex = 1;
+            this.txtHeight.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtHeight_KeyDown);
             // 
             // txtWeight
             // 
             this.txtWeight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtWeight.Location = new System.Drawing.Point(117, 80);
             this.txtWeight.Name = "txtWeight";
-            this.txtWeight.Size = new System.Drawing.Size(119, 31);
+            this.txtWeight.Size = new System.Drawing.Size(196, 31);
             this.txtWeight.TabIndex = 2;
+            this.txtWeight.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtWeight_KeyDown);
             // 
             // btnRun
             // 
-            this.btnRun.Location = new System.Drawing.Point(254, 42);
+            this.btnRun.Location = new System.Drawing.Point(333, 42);
             this.btnRun.Name = "btnRun";
             this.btnRun.Size = new System.Drawing.Size(81, 63);
             this.btnRun.TabIndex = 4;
@@ -127,9 +129,9 @@
             this.lblResult.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblResult.Location = new System.Drawing.Point(199, 63);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(127, 25);
+            this.lblResult.Size = new System.Drawing.Size(222, 25);
             this.lblResult.TabIndex = 1;
-            this.lblResult.Text = "                       ";
+            this.lblResult.Text = "                                          ";
             this.lblResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmBMI

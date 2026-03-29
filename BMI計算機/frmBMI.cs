@@ -57,7 +57,7 @@ namespace BMI計算機
             height = height / 100;
             // 計算BMI
             double bmi = weight / (height * height);
-            string[] strResultList = { "體重過輕", "健康體位", "體位過重", "輕度肥胖", "中度肥胖", "重度肥胖" };
+            string[] strResultList = { "體重過輕", "健康體位", "體重過重", "輕度肥胖", "中度肥胖", "重度肥胖" };
             Color[] colorList = { Color.Blue, Color.Green, Color.Orange, Color.DarkOrange, Color.Red, Color.Purple };
             string strResult = "";
             Color colorResult = Color.Black;
@@ -90,6 +90,24 @@ namespace BMI計算機
             colorResult = colorList[resultIndex];
             lblResult.Text = $"{bmi:F2} ({strResult})";
             lblResult.BackColor = colorResult;
+        }
+
+        private void txtHeight_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true; 
+                SendKeys.Send("{TAB}");  
+            }
+        }
+
+        private void txtWeight_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true; 
+                SendKeys.Send("{TAB}"); 
+            }
         }
     }
 }
